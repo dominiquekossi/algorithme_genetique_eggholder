@@ -26,18 +26,18 @@ f(x, y) = -(y + 47) \sin(\sqrt{x^2 + y + 47}) - x \sin(\sqrt{x - (y + 47)})
 
 ## Estrutura do Código
 
-O projeto é organizado em vários arquivos de função:
+O projeto é organizado em várias funções:
 
-- `algorithme_genetique_eggholder.m`: Função principal que coordena o algoritmo genético.
-- `initialiser_population.m`: Inicializa a população de indivíduos.
-- `evaluer_population.m`: Avalia a população e calcula o fitness.
-- `evoluer_population.m`: Evolui a população através de seleção, cruzamento e mutação.
-- `eggholder.m`: Implementa a função Eggholder.
-- `decode.m`: Decodifica o vetor binário em valores de \( x \) e \( y \).
-- `selection_tournoi.m`: Realiza a seleção por torneio.
-- `croisement.m`: Realiza o cruzamento entre os indivíduos.
-- `muter.m`: Aplica mutação nos descendentes.
-- `afficher_meilleur.m`: Exibe o melhor resultado encontrado.
+- `algorithme_genetique_eggholder`: Função principal que coordena o algoritmo genético.
+- `initialiser_population`: Inicializa a população de indivíduos.
+- `evaluer_population`: Avalia a população e calcula o fitness.
+- `evoluer_population`: Evolui a população através de seleção, cruzamento e mutação.
+- `eggholder`: Implementa a função Eggholder.
+- `decode`: Decodifica o vetor binário em valores de \( x \) e \( y \).
+- `selection_tournoi`: Realiza a seleção por torneio.
+- `croisement`: Realiza o cruzamento entre os indivíduos.
+- `muter`: Aplica mutação nos descendentes.
+- `afficher_meilleur`: Exibe o melhor resultado encontrado.
 
 ## Instalação e Execução
 
